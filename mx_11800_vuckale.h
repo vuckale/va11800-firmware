@@ -4,12 +4,15 @@
 #include "quantum.h"
 
 #define LAYOUT2( \
-    e00, \
-    k00, k01, k02, k03, k04, k05, k06, k07, k08, k09, k0a, k0b, k0c, k0d, k0e, \
-    k10,  k11, k12, k13, k14, k15, k16, k17, k18, k19, k1a, k1b, k1c,   k1e, \
-    k20,   k21, k22, k23, k24, k25, k26, k27, k28, k29, k2a, k2b,    k2e, \
-    k30,    k32, k33, k34, k35, k36, k37, k38, k39, k3a, k3b,     k3c, k3e, \
-    k40,  k41,  k42,               k47,                 k4a, k4b, k4c, k4e \
+  k63,  k62, k42, k61, k41, k60, k40,  k64, k45, k65, k76,  k66 \
+        k72, k52, k71, k51, k70, k50,  k74, k55, k75, k46,  \
+  \
+  k23, k33, k22, k32, k21, k31, k20, k30, k24, k34, k25, k26, k35, k36, k27 \
+  k03, k13, k02, k12, k01, k11, k00, k10, k04, k14, k05, k15, k06,   k17,\
+  k93, k83, k92, k82, k91, k81, k90, k80, k94, k84, k95, k85, k96,  k87\
+  kB3, KA3, kB2, kA2, kB1, kA1, kB0, kA0, kB4, kA4, kB5, kA5, kB6,  KB7, \
+  kD3, kC3,                     kD0,                     kD5, kC5      kD7,\
+                                                                  kC7, kD9, kC9\
 ) { \
     { k00,   k01,   k02,   k03,   k04,   k05, k06,   KC_NO, k08, KC_NO },\
     { k10,   k11,   k12,   k13,   k14,   k15, KC_NO, k17,   k18, KC_NO },\
