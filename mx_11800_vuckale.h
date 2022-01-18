@@ -28,3 +28,8 @@
     { KC_NO, KC_NO, KC_NO, kC3,   KC4,   kC5, KC_NO, kC7,   kC8 },                                      \
     { kD0,   KC_NO, KC_NO, kD3,   KD4,   kD5, kD6,   kD7,   kD8 }                                       \
 }
+
+#define LAYER_LED B7
+
+void turn_off_led(pin_t pin);
+void turn_on_led(pin_t pin);

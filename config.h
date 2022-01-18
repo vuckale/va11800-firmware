@@ -15,3 +15,7 @@
 
 /* Set 0 if debouncing isn't needed */
 #define DEBOUNCE 5
+
+#define LED_NUM_LOCK_PIN B9
+#define LED_CAPS_LOCK_PIN B8
+// #define LED_SCROLL_LOCK_PIN B7
