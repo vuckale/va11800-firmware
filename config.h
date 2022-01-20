@@ -19,3 +19,6 @@
 #define LED_NUM_LOCK_PIN B9
 #define LED_CAPS_LOCK_PIN B8
 // #define LED_SCROLL_LOCK_PIN B7
+
+#define PS2_CLOCK_PIN A8
+#define PS2_DATA_PIN  A10
