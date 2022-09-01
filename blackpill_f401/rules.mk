@@ -8,5 +8,6 @@ BOOTLOADER = stm32-dfu
 #   change yes to no to disable
 #
 KEYBOARD_SHARED_EP = yes
+MOUSEKEY_ENABLE = yes
 PS2_MOUSE_ENABLE = yes
 PS2_USE_INT = yes
